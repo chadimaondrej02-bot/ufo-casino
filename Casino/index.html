@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>UFO Casino</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>UFO Casino</h1>
+
+  <div id="ban" style="display:none;">
+    <p>Access Denied – Pyramid Security Lock. Čekej 10 minut.</p>
+  </div>
+
+  <div id="game">
+    <p>Kredity: <span id="credits"></span></p>
+    <button onclick="gamble(1000)">Riskni 1000 kreditů</button>
+  </div>
+
+  <div id="win" style="display:none;">
+    <p>Gratulace! Dosáhl jsi milionu a můžeš pokračovat k UFO.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
